@@ -18,9 +18,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1371395999281" ID="ID_1489745883" MODIFIED="1371484928084" TEXT="2. A Tour of C++">
+<node CREATED="1371395999281" FOLDED="true" ID="ID_1489745883" MODIFIED="1371746094648" TEXT="2. A Tour of C++">
 <icon BUILTIN="button_ok"/>
-<node CREATED="1371474495745" ID="ID_1771748952" MODIFIED="1371474506738" TEXT="2.1 What&apos;s C++">
+<node CREATED="1371474495745" ID="ID_1771748952" MODIFIED="1371746082836" TEXT="2.1 What&apos;s C++">
 <node CREATED="1371474508585" ID="ID_656196827" MODIFIED="1371474573959">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -45,7 +45,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1371475926026" ID="ID_1582303257" MODIFIED="1371475937950" TEXT="2.2 Programming Paradigms">
+<node CREATED="1371475926026" ID="ID_1582303257" MODIFIED="1371746081276" TEXT="2.2 Programming Paradigms">
 <node CREATED="1371476168688" ID="ID_751711390" MODIFIED="1371476381246" TEXT="&#x4e00;&#x4e2a;&#x8bed;&#x8a00;&#x4e0d;&#x5728;&#x6709;&#x591a;&#x5c11; feature, &#x91cd;&#x8981;&#x7684;&#x662f;&#x62e5;&#x6709;&#x7684;feature&#x80fd;&#x5728;&#x9700;&#x8981;&#x7684;&#x65f6;&#x5019;&#x80fd;&#x6ee1;&#x8db3;&#x9700;&#x6c42;"/>
 <node CREATED="1371476381650" ID="ID_260967926" MODIFIED="1371476433394" TEXT="[1] All features must be cleanly and elegantly integrated into the language."/>
 <node CREATED="1371476434638" ID="ID_521217030" MODIFIED="1371476487308">
@@ -97,7 +97,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1371476731360" ID="ID_579514351" MODIFIED="1371476748461" TEXT="2.3 Procedural Progamming">
+<node CREATED="1371476731360" ID="ID_579514351" MODIFIED="1371746084444" TEXT="2.3 Procedural Progamming">
 <node CREATED="1371476752176" ID="ID_1775101352" MODIFIED="1371476833386">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -124,7 +124,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1371476839875" ID="ID_1291837758" MODIFIED="1371476860575" TEXT="2.4 Modular Programming">
+<node CREATED="1371476839875" ID="ID_1291837758" MODIFIED="1371746085196" TEXT="2.4 Modular Programming">
 <node CREATED="1371476862999" ID="ID_483924737" MODIFIED="1371476947094">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -169,7 +169,7 @@
 <node CREATED="1371477342707" ID="ID_1515851852" MODIFIED="1371477386042" TEXT="Exception Handling"/>
 </node>
 </node>
-<node CREATED="1371480658462" ID="ID_1139838428" MODIFIED="1371480671884" TEXT="2.5 Data Abstraction">
+<node CREATED="1371480658462" ID="ID_1139838428" MODIFIED="1371746086142" TEXT="2.5 Data Abstraction">
 <node CREATED="1371480674705" ID="ID_240383703" MODIFIED="1371480727635">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -189,7 +189,7 @@
 <node CREATED="1371482809316" ID="ID_74164361" MODIFIED="1371482818433" TEXT="Abstract types"/>
 <node CREATED="1371482828489" ID="ID_967051464" MODIFIED="1371482833547" TEXT="Virtual functions"/>
 </node>
-<node CREATED="1371482835491" ID="ID_784410172" MODIFIED="1371483212946" TEXT="2.6 Object-Oriented Programming">
+<node CREATED="1371482835491" ID="ID_784410172" MODIFIED="1371746087928" TEXT="2.6 Object-Oriented Programming">
 <node CREATED="1371483253323" ID="ID_35762126" MODIFIED="1371483378659">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -222,7 +222,7 @@
 </node>
 <node CREATED="1371483705189" ID="ID_1471697" MODIFIED="1371483949068" TEXT="Class hierarchies"/>
 </node>
-<node CREATED="1371483951522" ID="ID_1224787202" MODIFIED="1371483969136" TEXT="2.7 Generic Programming">
+<node CREATED="1371483951522" ID="ID_1224787202" MODIFIED="1371746089096" TEXT="2.7 Generic Programming">
 <node CREATED="1371484040455" ID="ID_507006823" MODIFIED="1371484113320">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -247,7 +247,7 @@
 <node CREATED="1371484250382" ID="ID_1600855765" MODIFIED="1371484260895" TEXT="Container"/>
 <node CREATED="1371484424028" ID="ID_1181457341" MODIFIED="1371484444081" TEXT="Generic algorithms"/>
 </node>
-<node CREATED="1371484829501" ID="ID_701712324" MODIFIED="1371484837854" TEXT="2.8 Postscript">
+<node CREATED="1371484829501" ID="ID_701712324" MODIFIED="1371746090659" TEXT="2.8 Postscript">
 <node CREATED="1371484839329" ID="ID_943274712" MODIFIED="1371484884146">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -258,12 +258,122 @@
       Only in the context provided&#160;by techniques and by other features does the feature acquire meaning and interest.
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1371396008802" FOLDED="true" ID="ID_862891775" MODIFIED="1371746096092" TEXT="3. A Tour of the Standard Library">
+<node CREATED="1371739424837" ID="ID_798166891" MODIFIED="1371739438787" TEXT="3.1 Introduction"/>
+<node CREATED="1371739884003" ID="ID_432022950" MODIFIED="1371739892659" TEXT="3.2 Hello, world!"/>
+<node CREATED="1371739893142" ID="ID_161187543" MODIFIED="1371739920184" TEXT="3.3 The Standard Library Namespace">
+<node CREATED="1371739983477" ID="ID_293292112" MODIFIED="1371740045384">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      It is generally in poor taste to dump every name from a namespace into the global namespace.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371739920606" ID="ID_605063141" MODIFIED="1371739928005" TEXT="3.4 Output">
+<node CREATED="1371740655459" ID="ID_1184830561" MODIFIED="1371740735170">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the result of an output expression can itself be used for further output.
+    </p>
+    <p>
+      cout &lt;&lt; &quot;hello, &quot; &lt;&lt; &quot; world!\n&quot;;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371740851881" ID="ID_367353875" MODIFIED="1371740855415" TEXT="3.5 Strings">
+<node CREATED="1371741047106" ID="ID_1343939572" MODIFIED="1371742009844" TEXT="3.5.1 C-Style Strings">
+<node CREATED="1371741199130" ID="ID_81631993" MODIFIED="1371741207092" TEXT="string.c_str();"/>
+</node>
+</node>
+<node CREATED="1371741208593" ID="ID_1911932665" MODIFIED="1371742019468" TEXT="3.6 Input">
+<node CREATED="1371741844427" ID="ID_353746217" MODIFIED="1371741866958" TEXT="cin&gt;&gt;i;"/>
+<node CREATED="1371741854241" ID="ID_1877184445" MODIFIED="1371741878130" TEXT="getline(cin, str);"/>
+</node>
+<node CREATED="1371741965086" ID="ID_1683599126" MODIFIED="1371742024038" TEXT="3.7 Containers">
+<node CREATED="1371741974179" ID="ID_1961765363" MODIFIED="1371742033145" TEXT="3.7.1 Vector">
+<node CREATED="1371742150170" ID="ID_579046879" MODIFIED="1371742212409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vector&lt;Entry&gt; book(1000); // vector of 1000 elements
+    </p>
+    <p>
+      vector&lt;Entry&gt; book[1000]; // 1000 empty vector elements
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371742404236" ID="ID_828121227" MODIFIED="1371742410744" TEXT="3.7.2 Range Checking">
+<node CREATED="1371742416547" ID="ID_50611619" MODIFIED="1371742450932" TEXT="std::vector does not provide range checking by default."/>
+</node>
+<node CREATED="1371742489187" ID="ID_1066783382" MODIFIED="1371742492783" TEXT="3.7.3 List">
+<node CREATED="1371742645288" ID="ID_1622358973" MODIFIED="1371742677536" TEXT="constant_iterator and iterator"/>
+</node>
+<node CREATED="1371742707242" ID="ID_297490615" MODIFIED="1371742712988" TEXT="3.7.4 Map"/>
+<node CREATED="1371745803744" ID="ID_366480191" MODIFIED="1371746075363" TEXT="3.7.5 Standard Containers">
+<node CREATED="1371745832854" ID="ID_429552937" MODIFIED="1371746069694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vector&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A variable-sized vector
+    </p>
+    <p>
+      list&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A doubly-linked list
+    </p>
+    <p>
+      queue&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A queue
+    </p>
+    <p>
+      deque&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A double-ended queue
+    </p>
+    <p>
+      priority_queue&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A queue sorted by value
+    </p>
+    <p>
+      set&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A set
+    </p>
+    <p>
+      multiset&lt;T&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A set in which a value can occur man times
+    </p>
+    <p>
+      map&lt;key, val&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;An associative array
+    </p>
+    <p>
+      multimap&lt;key, val&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A map in which a key can occur man times
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1371396008802" ID="ID_862891775" MODIFIED="1371396028407" TEXT="3. A Tour of the Standard Library"/>
+</node>
 </node>
 <node CREATED="1371396031627" ID="ID_1384587468" MODIFIED="1371396534971" POSITION="right" TEXT="Part I: Basic Facilities">
 <node CREATED="1371396111274" ID="ID_746856043" MODIFIED="1371396125550" TEXT="4. Type and Declarations"/>
