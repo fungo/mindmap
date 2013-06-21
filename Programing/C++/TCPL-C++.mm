@@ -18,7 +18,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1371395999281" FOLDED="true" ID="ID_1489745883" MODIFIED="1371746094648" TEXT="2. A Tour of C++">
+<node CREATED="1371395999281" FOLDED="true" ID="ID_1489745883" MODIFIED="1371830369379" TEXT="2. A Tour of C++">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1371474495745" ID="ID_1771748952" MODIFIED="1371746082836" TEXT="2.1 What&apos;s C++">
 <node CREATED="1371474508585" ID="ID_656196827" MODIFIED="1371474573959">
@@ -262,7 +262,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1371396008802" FOLDED="true" ID="ID_862891775" MODIFIED="1371746096092" TEXT="3. A Tour of the Standard Library">
+<node CREATED="1371396008802" FOLDED="true" ID="ID_862891775" MODIFIED="1371830357240" TEXT="3. A Tour of the Standard Library">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1371739424837" ID="ID_798166891" MODIFIED="1371739438787" TEXT="3.1 Introduction"/>
 <node CREATED="1371739884003" ID="ID_432022950" MODIFIED="1371739892659" TEXT="3.2 Hello, world!"/>
 <node CREATED="1371739893142" ID="ID_161187543" MODIFIED="1371739920184" TEXT="3.3 The Standard Library Namespace">
@@ -276,8 +277,7 @@
       It is generally in poor taste to dump every name from a namespace into the global namespace.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371739920606" ID="ID_605063141" MODIFIED="1371739928005" TEXT="3.4 Output">
@@ -294,8 +294,7 @@
       cout &lt;&lt; &quot;hello, &quot; &lt;&lt; &quot; world!\n&quot;;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371740851881" ID="ID_367353875" MODIFIED="1371740855415" TEXT="3.5 Strings">
@@ -322,8 +321,7 @@
       vector&lt;Entry&gt; book[1000]; // 1000 empty vector elements
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371742404236" ID="ID_828121227" MODIFIED="1371742410744" TEXT="3.7.2 Range Checking">
@@ -368,10 +366,132 @@
       multimap&lt;key, val&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;A map in which a key can occur man times
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1371812945437" ID="ID_1118106658" MODIFIED="1371829761993" TEXT="3.8 Algorithms">
+<node CREATED="1371813093220" ID="ID_1957383835" MODIFIED="1371813116546" TEXT="3.8.1 Use of Iterators">
+<node CREATED="1371813186041" ID="ID_1111399547" MODIFIED="1371813861557">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      begin()
+    </p>
+    <p>
+      end()
+    </p>
+    <p>
+      find()
+    </p>
+    <p>
+      count()
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
+<node CREATED="1371828063297" ID="ID_1079700867" MODIFIED="1371828078867" TEXT="3.8.2 Iterator Types"/>
+<node CREATED="1371828568704" ID="ID_61709323" MODIFIED="1371828579029" TEXT="3.8.3 Iterator and I/O">
+<node CREATED="1371828580813" ID="ID_175919343" MODIFIED="1371828645694">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ostream_iterator &lt;string&gt; oo (cout);
+    </p>
+    <p>
+      istream_iterator &lt;string&gt; ii (cin);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371828679345" ID="ID_209831897" MODIFIED="1371828695940" TEXT="3.8.4 Traversals and Predicates">
+<node CREATED="1371828997533" ID="ID_1478819717" MODIFIED="1371829121110">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      find_if(m.begin(), m.end(), gt_42);
+    </p>
+    <p>
+      count_if(m.begin(), m.end(), gt_42)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371829127423" ID="ID_286522556" MODIFIED="1371829145284" TEXT="3.8.5 Algorithms Using Member Functions">
+<node CREATED="1371829299256" ID="ID_1263026328" MODIFIED="1371829314841" TEXT="mem_fun(&amp;Shape::draw);"/>
+</node>
+<node CREATED="1371829328498" ID="ID_472024369" MODIFIED="1371829342572" TEXT="3.8.6 Standard Library Algorithms">
+<node CREATED="1371829420349" ID="ID_172843203" MODIFIED="1371829759518">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for_each()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Invoke function for each element
+    </p>
+    <p>
+      find()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Find first occurrence of arguments
+    </p>
+    <p>
+      find_if()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Find first match of predicate
+    </p>
+    <p>
+      count()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Count occurrences of element
+    </p>
+    <p>
+      count_if()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Count matches of predicate
+    </p>
+    <p>
+      replace()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Replace element with new value
+    </p>
+    <p>
+      replace_if()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Replace element that matches predicate with new value
+    </p>
+    <p>
+      copy()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Copy elements
+    </p>
+    <p>
+      unique_copy()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Copy elements that are not duplicate
+    </p>
+    <p>
+      sort()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sort elements
+    </p>
+    <p>
+      equal_range()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Find all elements with equivalent values
+    </p>
+    <p>
+      merge()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Merge sorted sequences&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1371829765406" ID="ID_665496648" MODIFIED="1371829770202" TEXT="3.9 Math">
+<node CREATED="1371829876110" ID="ID_882496821" MODIFIED="1371829886247" TEXT="3.9.1 Complex Numbers"/>
+<node CREATED="1371829888049" ID="ID_1636652033" MODIFIED="1371829906634" TEXT="3.9.2 Vector Arithmetic"/>
+<node CREATED="1371829991550" ID="ID_1253769051" MODIFIED="1371830014876" TEXT="3.9.3 Basic Numeric Support"/>
+</node>
+<node CREATED="1371830127738" ID="ID_519543584" MODIFIED="1371830141099" TEXT="3.10 Standard Library Facilities"/>
+<node CREATED="1371830141883" ID="ID_204111479" MODIFIED="1371830146532" TEXT="3.11 Advice">
+<node CREATED="1371830289168" ID="ID_1772039009" MODIFIED="1371830295711" TEXT="12 advices"/>
 </node>
 </node>
 </node>
