@@ -18,7 +18,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1371395999281" FOLDED="true" ID="ID_1489745883" MODIFIED="1371830369379" TEXT="2. A Tour of C++">
+<node CREATED="1371395999281" FOLDED="true" ID="ID_1489745883" MODIFIED="1371870468157" TEXT="2. A Tour of C++">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1371474495745" ID="ID_1771748952" MODIFIED="1371746082836" TEXT="2.1 What&apos;s C++">
 <node CREATED="1371474508585" ID="ID_656196827" MODIFIED="1371474573959">
@@ -262,7 +262,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1371396008802" FOLDED="true" ID="ID_862891775" MODIFIED="1371830357240" TEXT="3. A Tour of the Standard Library">
+<node CREATED="1371396008802" FOLDED="true" ID="ID_862891775" MODIFIED="1371870470564" TEXT="3. A Tour of the Standard Library">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1371739424837" ID="ID_798166891" MODIFIED="1371739438787" TEXT="3.1 Introduction"/>
 <node CREATED="1371739884003" ID="ID_432022950" MODIFIED="1371739892659" TEXT="3.2 Hello, world!"/>
@@ -391,8 +391,7 @@
       count()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371828063297" ID="ID_1079700867" MODIFIED="1371828078867" TEXT="3.8.2 Iterator Types"/>
@@ -410,8 +409,7 @@
       istream_iterator &lt;string&gt; ii (cin);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371828679345" ID="ID_209831897" MODIFIED="1371828695940" TEXT="3.8.4 Traversals and Predicates">
@@ -428,8 +426,7 @@
       count_if(m.begin(), m.end(), gt_42)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1371829127423" ID="ID_286522556" MODIFIED="1371829145284" TEXT="3.8.5 Algorithms Using Member Functions">
@@ -479,8 +476,7 @@
       merge()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Merge sorted sequences&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -495,8 +491,304 @@
 </node>
 </node>
 </node>
-<node CREATED="1371396031627" ID="ID_1384587468" MODIFIED="1371396534971" POSITION="right" TEXT="Part I: Basic Facilities">
-<node CREATED="1371396111274" ID="ID_746856043" MODIFIED="1371396125550" TEXT="4. Type and Declarations"/>
+<node CREATED="1371396031627" ID="ID_1384587468" MODIFIED="1371890826835" POSITION="right" TEXT="Part I: Basic Facilities">
+<node CREATED="1371396111274" FOLDED="true" ID="ID_746856043" MODIFIED="1371890844111" TEXT="4. Type and Declarations">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1371863393842" ID="ID_1859647737" MODIFIED="1371863399566" TEXT="4.1 Types">
+<node CREATED="1371863435802" ID="ID_897097215" MODIFIED="1371863486687">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      types determines what operations can be applied to the name, and how such operations are interpreted.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1371863635077" ID="ID_35403956" MODIFIED="1371863648468" TEXT="4.1.1 Fundametal Types"/>
+</node>
+<node CREATED="1371864007142" ID="ID_1700887424" MODIFIED="1371864011808" TEXT="4.2 Booleans">
+<node CREATED="1371864589387" ID="ID_471864569" MODIFIED="1371864886133">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      true&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nonzero integers, nonzero pointer
+    </p>
+    <p>
+      false&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0, zero-valued pointer
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371864504461" ID="ID_1280182569" MODIFIED="1371864518290" TEXT="4.3 Character Types">
+<node CREATED="1371864943328" ID="ID_53219707" MODIFIED="1371864978826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      char
+    </p>
+    <p>
+      signed char
+    </p>
+    <p>
+      unsigned char
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1371864521281" ID="ID_666218820" MODIFIED="1371864538228" TEXT="4.3.1 Character Literals"/>
+</node>
+<node CREATED="1371864555426" ID="ID_1658833552" MODIFIED="1371865598167" TEXT="4.4 Integer Types">
+<node CREATED="1371864982774" ID="ID_818653572" MODIFIED="1371865096266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3 forms&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 sizes
+    </p>
+    <p>
+      int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;short int
+    </p>
+    <p>
+      signed int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int
+    </p>
+    <p>
+      unsigned int&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;long int
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1371865243969" ID="ID_31891805" MODIFIED="1371865257058" TEXT="4.1.1 Integer Literals">
+<node CREATED="1371865279804" ID="ID_933687171" MODIFIED="1371865573465">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      decimal&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2, 332, 31242
+    </p>
+    <p>
+      octal&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;02, 077, 0324
+    </p>
+    <p>
+      hexadecimal&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x2, 0xff, 0xabcd
+    </p>
+    <p>
+      character literals&#160;&#160;&#160;'a', 'b'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2U unsigned literal
+    </p>
+    <p>
+      2L&#160;&#160;long literal
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1371865599308" ID="ID_261929505" MODIFIED="1371865610129" TEXT="4.5 Floating-Point Types">
+<node CREATED="1371865625164" ID="ID_1456780862" MODIFIED="1371865639306">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3 sizes
+    </p>
+    <p>
+      float
+    </p>
+    <p>
+      double
+    </p>
+    <p>
+      long double
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1371865660593" ID="ID_869209891" MODIFIED="1371865679193" TEXT="4.5.1 Floating-Point Literals">
+<node CREATED="1371865698603" ID="ID_1452557090" MODIFIED="1371865757827">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2.032 by default double
+    </p>
+    <p>
+      2.032f for floating
+    </p>
+    <p>
+      2.032l for long double
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1371865776661" ID="ID_160582790" MODIFIED="1371865780716" TEXT="4.6 Sizes">
+<node CREATED="1371866421440" ID="ID_115836946" MODIFIED="1371866449118" TEXT="do not made assumption about size"/>
+</node>
+<node CREATED="1371866492827" ID="ID_318784119" MODIFIED="1371866497193" TEXT="4.7 Void">
+<node CREATED="1371866698331" ID="ID_527209132" MODIFIED="1371866749653">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      no void object
+    </p>
+    <p>
+      function does not return a value
+    </p>
+    <p>
+      pointer to objects of unknow type
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371866881300" ID="ID_571120533" MODIFIED="1371866885614" TEXT="4.8 Enumerations">
+<node CREATED="1371866889886" ID="ID_69395673" MODIFIED="1371867443323" TEXT="enum"/>
+</node>
+<node CREATED="1371867445509" ID="ID_455905840" MODIFIED="1371867456014" TEXT="4.9 Declarations">
+<node CREATED="1371868574309" ID="ID_457199893" MODIFIED="1371868604374">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      declarations
+    </p>
+    <p>
+      definitions
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1371868730122" ID="ID_1423525837" MODIFIED="1371868753453" TEXT="4.9.1 The Structure of a Declaration">
+<node CREATED="1371868756082" ID="ID_775437323" MODIFIED="1371868829979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      4 parts
+    </p>
+    <p>
+      specifier(optional) + base type + declarator + initializer(optional)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1371869132784" ID="ID_932940530" MODIFIED="1371869230034">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      declarator operators
+    </p>
+    <p>
+      *&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pointer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;prefix
+    </p>
+    <p>
+      *const&#160;&#160;&#160;&#160;constant pointer&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;prefix
+    </p>
+    <p>
+      &amp;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reference&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;prefix
+    </p>
+    <p>
+      []&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;array&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;suffix
+    </p>
+    <p>
+      ()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;function&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;suffix
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371869446569" ID="ID_1922273585" MODIFIED="1371869467011" TEXT="4.9.2 Declaring Multiple Names">
+<node CREATED="1371869935071" ID="ID_1108205786" MODIFIED="1371869997779">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      declarator operator apply only to individual name
+    </p>
+    <p>
+      int *p, q; // int *p;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int y; not int *y;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371870063403" ID="ID_1511018824" MODIFIED="1371870069558" TEXT="4.9.3 Names">
+<node CREATED="1371888855783" ID="ID_1293783896" MODIFIED="1371888942964">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      choose names to reflect the <font color="#29d814">meaning</font>&#160;of entity rather than its <font color="#f90d18">implementation</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1371889028907" ID="ID_1448193943" MODIFIED="1371889035036" TEXT="4.9.4 Scope">
+<node CREATED="1371889083091" ID="ID_1621903055" MODIFIED="1371889111771" TEXT="declaration introduces a name into a scope"/>
+<node CREATED="1371889211608" ID="ID_618559649" MODIFIED="1371889221711" TEXT="scope resolution operator ::"/>
+</node>
+<node CREATED="1371889396626" ID="ID_1962386690" MODIFIED="1371889405853" TEXT="4.9.5 Initialization"/>
+<node CREATED="1371889565175" ID="ID_1067883684" MODIFIED="1371889596714" TEXT="4.9.6 Objects and Lvalues">
+<node CREATED="1371889745251" ID="ID_866937999" MODIFIED="1371889770023" TEXT="lvalue is an expression that refers to an object"/>
+</node>
+<node CREATED="1371889801581" ID="ID_838598789" MODIFIED="1371889807412" TEXT="4.9.7 Typedef">
+<node CREATED="1371889837334" ID="ID_1791348171" MODIFIED="1371889869205" TEXT="typedef define a new name for the type rather than a new variable of the given type."/>
+</node>
+</node>
+<node CREATED="1371890020947" ID="ID_847770684" MODIFIED="1371890031220" TEXT="4.10 Advice"/>
+</node>
 <node CREATED="1371396127428" ID="ID_1348022250" MODIFIED="1371396141566" TEXT="5. Pointers, Arrays, and Structures"/>
 <node CREATED="1371396144012" ID="ID_1244601302" MODIFIED="1371396153170" TEXT="6. Expressions and Satements"/>
 <node CREATED="1371396154596" ID="ID_1558423260" MODIFIED="1371396158544" TEXT="7. Functions"/>
